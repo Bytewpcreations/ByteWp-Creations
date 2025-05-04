@@ -61,7 +61,28 @@
                         <a href="project.html" class="nav-item nav-link active">Project</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a style="border: #6610f2;" href="contact.html" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Contact Us </a>
+                    <a href="contact.html" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" 
+   style="position: relative; display: inline-block; text-decoration: none; 
+          background-color: #FBA504; color: #000; font-size: 16px; font-weight: 500; 
+          border: none; border-radius: 30px; cursor: pointer; overflow: hidden; 
+          z-index: 1; transition: color 0.6s cubic-bezier(0.33, 1, 0.68, 1); 
+          padding: 0.5rem 1rem; margin-left: 1rem;">
+   Contact Us
+   <span style="content: ''; position: absolute; top: 0; left: 0; width: 0%; 
+                height: 100%; background-color: #6222CC; z-index: -1; 
+                transition: width 0.8s cubic-bezier(0.33, 1, 0.68, 1); 
+                border-radius: 30px;"></span>
+</a>
+
+<style>
+   .btn:hover {
+      color: white !important;
+      text-decoration: none !important;
+   }
+   .btn:hover span {
+      width: 100% !important;
+   }
+</style>
             </nav>
         
             <div class="container-xxl py-5 bg-primary hero-header">
