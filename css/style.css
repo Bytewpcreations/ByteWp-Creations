@@ -537,7 +537,9 @@ h6,
 
 .footer .btn.btn-social:hover {
     color: var(--primary);
+    background-color: var(--secondary);
 }
+
 
 .footer .btn.btn-link {
     display: block;
